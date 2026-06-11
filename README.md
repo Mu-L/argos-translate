@@ -174,7 +174,8 @@ Custom models trained on your own data are available for $1000/language (negotia
 
 [I am also available for hire](https://www.argosopentech.com/about/) to do support, consulting, or custom software development.
 
-## Donate
+## Financial Support
+#### Donate
 If you find this software useful donations are greatly appreciated and help to make this project sustainable.
 - [GitHub Sponsor](https://github.com/sponsors/argosopentech)
 - [PayPal](https://www.paypal.com/biz/fund?id=MCCFG437JP9PJ)
@@ -182,6 +183,15 @@ If you find this software useful donations are greatly appreciated and help to m
 - Bitcoin: 16UJrmSEGojFPaqjTGpuSMNhNRSsnspFJT
 
 Paid supporters receive priority support.
+
+#### Sponsors
+Argos Translate is proudly sponsored by TestMu AI.
+
+![TestMu AI logo](https://raw.githubusercontent.com/argosopentech/img/refs/heads/main/Testmuai_black_white_background.png)
+
+[TestMu AI (formerly LambdaTest)](https://www.testmuai.com/) is the world's first full-stack agentic AI quality engineering platform. Autonomous AI agents plan, author, execute, analyze, and optimize tests with humans in the loop, across 3,000+ browser/OS combinations and 10,000+ real devices. Trusted by 18,000+ enterprises including Microsoft, OpenAI, NVIDIA, and Vimeo.
+
+[Explore the platform →](https://www.testmuai.com/)
 
 #### Hosting affiliate links
 You can help support Argos Translate financially by purchasing hosting through these referral links:
