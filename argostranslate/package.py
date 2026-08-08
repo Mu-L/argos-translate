@@ -197,7 +197,6 @@ class Package(IPackage):
             metadata = json.load(metadata_file)
             self.load_metadata_from_json(metadata)
 
-        """ As of spacy multilingual support, the sbd package shall depend on the Argos package's content"""
         minisbd_package = package_path / "minisbd"
         stanza_package = package_path / "stanza"
         spacy_package = package_path / "spacy"

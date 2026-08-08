@@ -24,6 +24,11 @@ setup(
     python_requires=">=3.5",
     packages=find_packages(),
     install_requires=required_packages,
+    extras_require={
+        "stanza": [
+            "stanza==1.10.1",
+        ],
+    },
     entry_points={
         "console_scripts": [
             "argos-translate = argostranslate.cli:main",

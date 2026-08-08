@@ -162,9 +162,11 @@ class PackageTranslation(ITranslation):
         self.pkg = pkg
         self.translator = None
 
+        stanza_not_installed = (sbd.stanza is None)
+
         Sentencizer = None
         if settings.chunk_type in [settings.ChunkType.ARGOSTRANSLATE, settings.ChunkType.DEFAULT]:
-            if "stanza" in str(pkg.packaged_sbd_path):
+            if "stanza" in str(pkg.packaged_sbd_path) and not stanza_not_installed:
                 Sentencizer = StanzaSentencizer
             elif "minisbd" in str(pkg.packaged_sbd_path):
                 Sentencizer = MiniSBDSentencizer
